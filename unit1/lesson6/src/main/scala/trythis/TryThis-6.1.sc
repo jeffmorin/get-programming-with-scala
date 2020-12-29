@@ -5,3 +5,14 @@
 
 def pow(exponent: Int, base: Int = 2): Double =
   Math.pow(base, exponent)
+
+def pow2(exponent: Int, base: Int = 2): Double = {
+  var result = 1
+  for (e <- 1 to exponent) {
+    result *= base
+  }
+  result
+}
+
+println(pow(3, 5))
+println(pow2(3, 5))

@@ -5,3 +5,5 @@ def echo5(msg: String) = {
     i += 1
   }
 }
+
+echo5("Boom")

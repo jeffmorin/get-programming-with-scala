@@ -3,3 +3,5 @@ def echo5(msg: String) = {
     println(msg)
   }
 }
+
+echo5("Boom")
